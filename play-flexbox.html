@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex box demo</title>
+    <style>
+        .flex-container {
+            display: flex;
+            border: 1px solid silver;
+        }
+
+        .flex-item {
+            background: tomato;
+            padding: 5px;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            line-height: 100px;
+            color: white;
+            font-weight: bold;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .flex-dir-row {
+            flex-direction: row;
+        }
+
+        .flex-dir-row-rev {
+            flex-direction: row-reverse;
+        }
+
+        .flex-dir-col {
+            flex-direction: column;
+        }
+
+        .flex-dir-col-rev {
+            flex-direction: column-reverse;
+        }
+
+        .flex-no-wrap {
+            flex-wrap: nowrap;
+        }
+
+        .flex-wrap {
+            flex-wrap: wrap;
+        }
+
+        .flex-wrap-reverse {
+            flex-wrap: wrap-reverse;
+        }
+
+        .flex-flow-row-rev-wrap {
+            flex-flow: row-reverse wrap;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex features demo</h1>
+
+    <h2>Flex Direction row</h2>
+    <ul class="flex-container flex-dir-row">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+    </ul>
+    <h2>Flex Direction row-reverse</h2>
+    <ul class="flex-container flex-dir-row-rev">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+    </ul>
+
+    <h2>Flex Direction column</h2>
+    <ul class="flex-container flex-dir-col">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+    </ul>
+
+    <h2>Flex Direction column reverse</h2>
+    <ul class="flex-container flex-dir-col-rev">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+    </ul>
+
+    <h2>Flex Wrap no wrap</h2>
+    <ul class="flex-container flex-no-wrap">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+        <li class="flex-item">6</li>
+        <li class="flex-item">7</li>
+        <li class="flex-item">8</li>
+        <li class="flex-item">9</li>
+        <li class="flex-item">10</li>
+        <li class="flex-item">11</li>
+        <li class="flex-item">12</li>
+    </ul>
+
+    <h2>Flex Wrap wrap</h2>
+    <ul class="flex-container flex-wrap">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+        <li class="flex-item">6</li>
+        <li class="flex-item">7</li>
+        <li class="flex-item">8</li>
+        <li class="flex-item">9</li>
+        <li class="flex-item">10</li>
+        <li class="flex-item">11</li>
+        <li class="flex-item">12</li>
+    </ul>
+
+    <h2>Flex Wrap wrap-reverse</h2>
+    <ul class="flex-container flex-wrap-reverse">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+        <li class="flex-item">6</li>
+        <li class="flex-item">7</li>
+        <li class="flex-item">8</li>
+        <li class="flex-item">9</li>
+        <li class="flex-item">10</li>
+        <li class="flex-item">11</li>
+        <li class="flex-item">12</li>
+    </ul>
+
+
+    <h2>Flex Flow Row reverse wrap </h2>
+    <ul class="flex-container flex-flow-row-rev-wrap">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+        <li class="flex-item">6</li>
+        <li class="flex-item">7</li>
+        <li class="flex-item">8</li>
+        <li class="flex-item">9</li>
+        <li class="flex-item">10</li>
+        <li class="flex-item">11</li>
+        <li class="flex-item">12</li>
+    </ul>
+
+    <h2>Flex justify content </h2>
+    <ul class="flex-container flex-flow-row-rev-wrap">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+        <li class="flex-item">6</li>
+        <li class="flex-item">7</li>
+        <li class="flex-item">8</li>
+        <li class="flex-item">9</li>
+        <li class="flex-item">10</li>
+        <li class="flex-item">11</li>
+        <li class="flex-item">12</li>
+    </ul>
+
+
+</body>
+</html>
