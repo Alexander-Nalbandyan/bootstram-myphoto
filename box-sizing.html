@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul {
+            overflow: auto;
+            padding-left: 0;
+        }
+
+        ul li {
+            width: 20%;
+            border-right: solid black 5px;
+            padding: .25em;
+            float: left;
+            background-color: gold;
+            text-align: center;
+            list-style: none;
+            margin-bottom: .5rem;
+        }
+
+        ul.box-sizing li {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+<h1>Box-sizing demo</h1>
+
+<p>Items in this list are default.</p>
+
+<ul>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+    <li>Four</li>
+    <li>Five</li>
+</ul>
+
+<p>Items in this list have <code>box-sizing: border-box;</code>, so at 20% width, they all fit in a row, even with their padding and border.</p>
+
+<ul class="box-sizing">
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+    <li>Four</li>
+    <li>Five</li>
+</ul>
+
+</body>
+</html>
